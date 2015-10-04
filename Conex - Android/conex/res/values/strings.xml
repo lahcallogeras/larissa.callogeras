@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="hello_world">conex</string>
+    <string name="app_name">conex</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ConeX</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>    
+    <string name="digUsu">Digite seu usuário.</string>
+    <string name="digSenha">Digite sua senha.</string>
+    <string name="mantCont">Mantenha-me contectado.</string>
+    <string name="entrar">  Entrar  </string>
+    <string name="criarConta">Criar conta</string>
+    <string name="separador">________________________________________________</string>
+    <string name="digMensagem">Digite sua mensagem.</string>
+    <string name="versao">Versão: 1.00</string>
+    <string name="vazio"> </string>
+    <string name="desenvolvedores">Desenvolvedores: </string>
+    <string name="daniel">Daniel Inoue Tomiyama</string>
+    <string name="gleison">Gleison Fernando das Neves</string>
+    <string name="larissa">Larissa Barbara Callogeras</string>
+    <string name="michel">Michel Gonçalves Leal</string>
+    <string name="orientador">Orientador: </string>
+    <string name="viana">Prof° Ms. Sc. José A. A. Viana</string>
+    <string name="centro">Centro Universitário de Rio Preto</string>
+    <string name="sobre">Sobre</string>
+</resources>
+
+
+
+

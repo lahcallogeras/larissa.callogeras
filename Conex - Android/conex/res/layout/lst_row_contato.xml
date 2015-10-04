@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="5dp"
+  android:background="#cccccc"  >
+  
+  <ImageView
+      android:id="@+id/imgContato"
+      android:contentDescription="@+string/teste"
+      android:layout_width="60dp"
+      android:layout_height="70dp"
+      android:background="#ffffff"
+      android:scaleType="centerCrop"
+  />
+  
+  <TextView
+      android:id="@+id/txtNomeCont"
+      android:layout_width="fill_parent"
+      android:layout_height="50dp"
+      android:layout_toRightOf="@+id/imgContato"
+      android:layout_alignTop="@+id/imgContato"
+      android:textSize="20sp"     
+      android:gravity="center"
+      android:textColor="#333333"
+      android:paddingLeft="5dp"  
+  />
+  
+   <TextView
+      android:id="@+id/txtQtdMsg"
+      android:layout_width="fill_parent"
+      android:layout_height="20dp"
+      android:layout_toRightOf="@+id/imgContato"
+      android:layout_alignBottom="@+id/imgContato"
+      android:textSize="13sp"          
+      android:textColor="#ff0000"
+      android:gravity="center"
+      android:paddingLeft="5dp"  
+      
+  />
+  <TextView
+      android:id="@+id/txtIdContato"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"    
+      android:textColor="#333333"
+      android:paddingLeft="5dp"  
+      android:visibility="invisible"
+  />
+ 
+</RelativeLayout>

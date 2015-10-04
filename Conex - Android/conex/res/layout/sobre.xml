@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:background="#E6E7E8" 
+    android:fillViewport="true" >
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6E7E8"
+    android:orientation="vertical">
+   
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6E7E8"
+        android:contentDescription="@drawable/logo_pequeno_png"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_pequeno_png" 
+        android:id="@+id/imgLoginCont"/>
+      
+  
+    <TextView
+        android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:textSize="30sp"
+        android:text="@string/sobre" />
+    
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:gravity="top"
+          android:background="#000000"
+          android:textStyle="bold" />
+      
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/versao"
+        android:textSize="18sp" />
+          
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/vazio" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/desenvolvedores" />
+    
+    <TextView
+        android:id="@+id/teste"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/daniel"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/gleison" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/larissa" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/michel" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/vazio" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/orientador" />    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/viana" />
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/vazio" />    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:text="@string/centro" />
+</LinearLayout>
+</ScrollView>

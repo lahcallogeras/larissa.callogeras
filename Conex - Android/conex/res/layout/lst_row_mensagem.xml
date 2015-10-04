@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="#cccccc"  >
+  
+    <RelativeLayout
+      android:id="@+id/relContato"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+  	  android:background="#D2E28B">
+  	   
+        <ImageView
+	      android:id="@+id/imgMsgCont"	      
+	      android:contentDescription="@+string/teste"
+	      android:layout_width="60dp"
+	      android:layout_height="70dp"
+	      android:background="#D2E28B"
+	      android:scaleType="centerCrop"
+	  />
+	  
+      <TextView
+	      android:id="@+id/txtMsgDataCont"
+	      android:layout_width="fill_parent"
+	      android:layout_height="15dp"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"
+	      android:textColor="#333333"
+	      android:layout_toRightOf="@+id/imgMsgCont"
+	      android:layout_alignTop="@+id/imgMsgCont"
+	      android:textSize="10sp" />
+
+	  <TextView
+	      android:id="@+id/txtMsgCont"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_alignLeft="@+id/txtMsgDataCont"
+	      android:layout_below="@+id/txtMsgDataCont"
+	      android:gravity="center_vertical"
+	      android:paddingLeft="5dp"
+	      
+	      android:textColor="#333333"
+	      android:textSize="15sp" />
+       
+  </RelativeLayout>
+  <RelativeLayout
+         android:id="@+id/relUsu"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/relContato"
+         android:background="#FFFFFF">
+	  
+      <TextView
+          android:id="@+id/txtMsgDataUsu"
+          android:layout_width="fill_parent"
+          android:layout_height="15dp"
+          android:layout_alignTop="@+id/imgMsgCont"
+          android:layout_toLeftOf="@+id/imgMsgUsu"
+          android:layout_toRightOf="@+id/imgMsgCont"
+          android:gravity="right"
+          android:paddingRight="5dp"
+          android:textColor="#333333"
+          android:textSize="10sp" />
+         <ImageView
+             android:id="@+id/imgMsgUsu"
+	      	 android:layout_width="60dp"
+	      	 android:layout_height="70dp"
+	      	 android:background="#ffffff"
+	      	 android:scaleType="centerCrop"
+             android:layout_alignLeft="@+id/relUsu"
+             android:layout_alignParentRight="true"
+             android:contentDescription="@+string/teste"/>
+
+         <TextView
+             android:id="@+id/txtMsgUsu"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignRight="@+id/txtMsgDataUsu"
+             android:layout_below="@+id/txtMsgDataUsu"
+             android:gravity="right"
+             android:paddingRight="5dp"
+             android:textColor="#333333"
+             android:textSize="15sp" />
+    
+     </RelativeLayout>
+</RelativeLayout>

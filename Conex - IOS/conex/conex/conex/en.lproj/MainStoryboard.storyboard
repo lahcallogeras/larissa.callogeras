@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eyb-5L-4d7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8bw-25-dIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="9hz-3r-f8N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hJ3-gR-cP2">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_pequeno_png.png" id="ghW-rw-6gM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sobre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="ckG-iz-vTm">
+                                <rect key="frame" x="11" y="114" width="97" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="___________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" id="dro-II-6Lx">
+                                <rect key="frame" x="11" y="131" width="315" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="fQG-dR-S5M">
+                                <rect key="frame" x="0.0" y="70" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Voltar" width="147" id="F1W-Lb-GaZ">
+                                        <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="btnVoltar:" destination="8TA-cX-09i" id="3q1-4N-jsu"/>
+                                            <segue destination="2" kind="modal" id="Ep0-am-dCi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.81686245440000005" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Versão: 1.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="fuk-JJ-UIy">
+                                <rect key="frame" x="11" y="169" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Desenvolvedores:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="6Wa-LZ-RyC">
+                                <rect key="frame" x="11" y="200" width="137" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Daniel Inoue Tomiyama" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="z7P-is-a8x">
+                                <rect key="frame" x="11" y="218" width="180" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Gleison Fernando das Neves" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="AbA-KY-dlS">
+                                <rect key="frame" x="11" y="236" width="221" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Larissa Barbara Callogeras" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ig4-Yr-rYe">
+                                <rect key="frame" x="11" y="254" width="206" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Michel Gonçalves Leal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="9Ay-lz-AOB">
+                                <rect key="frame" x="11" y="272" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Orientador:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="oPx-gr-AEK">
+                                <rect key="frame" x="11" y="302" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Profº Ms. Sc. José A. A. Viana" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="wyZ-HW-JHf">
+                                <rect key="frame" x="11" y="321" width="230" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Centro Universitário de Rio Preto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="UEm-q1-BtI">
+                                <rect key="frame" x="11" y="360" width="251" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.90508097627737227" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-797" y="541"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Hg-yW-NFG">
+                                <rect key="frame" x="6" y="7" width="309" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="logo.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9hz-3r-f8N" kind="modal" id="V59-Li-kfb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Usuário" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="xgu-49-6PQ">
+                                <rect key="frame" x="11" y="127" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="vnM-av-QhZ">
+                                <rect key="frame" x="10" y="148" width="300" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneTeclado:" destination="4" eventType="editingDidEndOnExit" id="zz3-ej-Pjs"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="9KK-kp-KMJ">
+                                <rect key="frame" x="11" y="204" width="300" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="doneTeclado:" destination="4" eventType="editingDidEndOnExit" id="FBb-8o-BGN"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Senha:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Tde-KI-HJV">
+                                <rect key="frame" x="11" y="181" width="54" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="GMJ-4g-XXk">
+                                <rect key="frame" x="10" y="243" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="0.6470588235294118" green="0.792156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="valorSwitchAlterado:" destination="2" eventType="valueChanged" id="W2V-ca-mJv"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Manter-me conectado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="n2t-cV-na0">
+                                <rect key="frame" x="89" y="243" width="184" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="2MX-9h-0Xy">
+                                <rect key="frame" x="189" y="298" width="119" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Entrar" backgroundImage="botao.gif">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginClicked:" destination="2" eventType="touchUpInside" id="zhb-zT-yku"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="________________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="2PA-3k-txh">
+                                <rect key="frame" x="10" y="328" width="303" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ya9-8Y-3Wj">
+                                <rect key="frame" x="191" y="357" width="119" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Criar Conta" backgroundImage="botao.gif">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="criarConta:" destination="2" eventType="touchDown" id="9lb-b4-5gy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196078431372551" green="0.90588235294117647" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dhZ-ny-XH7"/>
+                    <connections>
+                        <outlet property="btnCriarConta" destination="ya9-8Y-3Wj" id="7Py-RJ-H48"/>
+                        <outlet property="btnEntrar" destination="2MX-9h-0Xy" id="ykT-dz-1iS"/>
+                        <outlet property="btnSobre" destination="3Hg-yW-NFG" id="gy4-fP-raj"/>
+                        <outlet property="lblManterConectado" destination="n2t-cV-na0" id="0mO-6f-irt"/>
+                        <outlet property="swtManterConectado" destination="GMJ-4g-XXk" id="P4r-di-Cke"/>
+                        <outlet property="txtSenha" destination="9KK-kp-KMJ" id="RBi-TE-3FU"/>
+                        <outlet property="txtUsuario" destination="vnM-av-QhZ" id="MsG-jO-tHg"/>
+                        <segue destination="LuT-nr-b7d" kind="modal" identifier="contatoView" modalTransitionStyle="coverVertical" id="o8K-gY-0LW"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-1120" y="-9"/>
+        </scene>
+        <!--Contato Controller-->
+        <scene sceneID="2f4-qA-9ku">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thI-qk-U1o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="LuT-nr-b7d" customClass="ContatoController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" id="tev-79-C4x">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.81686245437956206" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="zae-eH-HPc">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_pequeno_png.png" id="wu3-hT-V77">
+                                    <rect key="frame" x="0.0" y="-9" width="320" height="79"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="yAL-0C-k4w">
+                                    <rect key="frame" x="0.0" y="70" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <items>
+                                        <barButtonItem title="Logoff" width="80" id="qGp-zE-WPG">
+                                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="BtnDesconectar:" destination="LuT-nr-b7d" id="YQR-VH-cHg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem title="Gerenciar Contatos" width="128" id="JTg-Ey-cM2">
+                                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="gerenciarContatos:" destination="LuT-nr-b7d" id="Sa6-Ed-Q4y"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem title="Fechar" width="80" id="3Tj-ue-IHu">
+                                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="btnSair:" destination="LuT-nr-b7d" id="lzq-4H-PD2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </items>
+                                    <color key="tintColor" white="0.81686245440000005" alpha="1" colorSpace="calibratedWhite"/>
+                                </toolbar>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="70" id="xfr-DJ-YuP" colorLabel="IBBuiltInLabel-Gray">
+                                <rect key="frame" x="0.0" y="134" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="LuT-nr-b7d" id="6P4-nG-XLX"/>
+                            <outlet property="delegate" destination="LuT-nr-b7d" id="NBh-d6-srW"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="contatosTableView" destination="tev-79-C4x" id="m6x-aw-Ogt"/>
+                        <segue destination="8TA-cX-09i" kind="modal" identifier="msgView" id="Les-Il-ZEP"/>
+                        <segue destination="2" kind="modal" identifier="viewLogin" id="fwH-7w-H9Y"/>
+                    </connections>
+                </tableViewController>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VEf-oP-vcK">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <items>
+                        <barButtonItem title="Desconectar" width="147" id="7Dz-I4-dPR">
+                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem title="Sair" width="148" id="UdU-0l-xgO">
+                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" white="0.81686245440000005" alpha="1" colorSpace="calibratedWhite"/>
+                </toolbar>
+            </objects>
+            <point key="canvasLocation" x="-545" y="-22"/>
+        </scene>
+        <!--Mensagem Controller - Title-->
+        <scene sceneID="fXj-0P-2ld">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2E-Q3-6Xv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="8TA-cX-09i" customClass="MensagemController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="74" sectionHeaderHeight="22" sectionFooterHeight="22" id="dva-xk-JEv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="f8p-Ai-N7M">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_pequeno_png.png" id="QYv-pe-8Xd">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <accessibility key="accessibilityConfiguration">
+                                        <accessibilityTraits key="traits" none="YES"/>
+                                    </accessibility>
+                                </imageView>
+                                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Akd-dw-u06">
+                                    <rect key="frame" x="0.0" y="71" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <items>
+                                        <barButtonItem title="Voltar" width="147" id="8u6-y8-2oj">
+                                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="btnVoltar:" destination="8TA-cX-09i" id="OIh-j5-eyj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem title="Excluir Mensagens" width="148" id="eXq-V5-Gco">
+                                            <color key="tintColor" red="0.64705882349999999" green="0.79215686269999996" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
+                                    </items>
+                                    <color key="tintColor" white="0.81686245440000005" alpha="1" colorSpace="calibratedWhite"/>
+                                </toolbar>
+                            </subviews>
+                            <color key="backgroundColor" white="0.81686245440000005" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="GMY-09-YNd">
+                            <rect key="frame" x="0.0" y="211" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="eXf-IW-o4B">
+                                    <rect key="frame" x="0.0" y="6" width="266" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <action selector="ativaTeclado:" destination="G2E-Q3-6Xv" eventType="editingDidBegin" id="ld1-Fd-oQs"/>
+                                        <action selector="desativaTeclado:" destination="G2E-Q3-6Xv" eventType="editingDidEnd" id="FdH-l3-rjh"/>
+                                        <action selector="doneTeclado:" destination="G2E-Q3-6Xv" eventType="editingDidEndOnExit" id="bek-e6-Xhi"/>
+                                    </connections>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ROH-Di-yiz">
+                                    <rect key="frame" x="274" y="0.0" width="41" height="41.5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <state key="normal" backgroundImage="enviar.png">
+                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnEnviarClicked:" destination="8TA-cX-09i" eventType="touchUpInside" id="ih6-gb-6if"/>
+                                    </connections>
+                                </button>
+                                <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="15" id="bpH-Ue-a3m">
+                                    <rect key="frame" x="-44" y="29" width="320" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="14"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </tableViewCell>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="74" id="jhw-FJ-s3B">
+                                <rect key="frame" x="0.0" y="137" width="320" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" image="YES"/>
+                                </accessibility>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="8TA-cX-09i" id="673-7h-UbW"/>
+                            <outlet property="delegate" destination="8TA-cX-09i" id="DYH-tn-bDY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="SgJ-58-ljp"/>
+                    <connections>
+                        <outlet property="btnEnviar" destination="ROH-Di-yiz" id="B0F-jf-9eg"/>
+                        <outlet property="msgTableView" destination="dva-xk-JEv" id="gJw-Qu-Oye"/>
+                        <outlet property="txtMsg" destination="eXf-IW-o4B" id="tUB-wx-tkM"/>
+                        <segue destination="LuT-nr-b7d" kind="modal" identifier="contatoView" id="lLw-W5-UCY"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="22" y="-9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="botao.gif" width="207" height="60"/>
+        <image name="enviar.png" width="67" height="43"/>
+        <image name="logo.png" width="586" height="325"/>
+        <image name="logo_pequeno_png.png" width="639" height="134"/>
+    </resources>
+    <classes>
+        <class className="ContatoController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContatoController.h"/>
+            <relationships>
+                <relationship kind="action" name="BtnDesconectar:"/>
+                <relationship kind="action" name="btnSair:"/>
+                <relationship kind="action" name="gerenciarContatos:"/>
+                <relationship kind="outlet" name="contatosTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="MensagemController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MensagemController.h"/>
+            <relationships>
+                <relationship kind="action" name="ativaTeclado:"/>
+                <relationship kind="action" name="btnEnviarClicked:"/>
+                <relationship kind="action" name="btnExcluir:"/>
+                <relationship kind="action" name="btnVoltar:"/>
+                <relationship kind="action" name="desativaTeclado:"/>
+                <relationship kind="action" name="doneTeclado:"/>
+                <relationship kind="outlet" name="btnEnviar" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="msgTableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="txtMsg" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ativaTeclado:"/>
+                <relationship kind="action" name="criarConta:"/>
+                <relationship kind="action" name="desativaTeclado:"/>
+                <relationship kind="action" name="doneTeclado:"/>
+                <relationship kind="action" name="loginClicked:"/>
+                <relationship kind="action" name="valorSwitchAlterado:"/>
+                <relationship kind="outlet" name="btnCriarConta" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="btnEntrar" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="btnSobre" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="contatosView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="lblManterConectado" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="loginView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="swtManterConectado" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="txtSenha" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="txtUsuario" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="fwH-7w-H9Y"/>
+        <segue reference="lLw-W5-UCY"/>
+    </inferredMetricsTieBreakers>
+</document>
