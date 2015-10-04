@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:gravity="center_horizontal"
+android:background="#F5F5F5"
+android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:background="#F5F5F5"
+    android:id="@+id/cabecalho" android:orientation="horizontal">
+    
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_alignParentBottom="true" android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+	android:background="#F5F5F5"
+    android:id="@+id/rodape" android:padding="10dip">
+     
+        
+      <RelativeLayout
+        android:id="@+id/relLoginBotoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+	    android:layout_marginTop="10dp"
+        android:orientation="vertical" >           
+	
+	       
+		    <TextView
+		        android:id="@+id/lnSeparador3"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_height="2dp"
+		        android:background="#C40000"
+		        android:gravity="top"
+		        android:layout_marginTop="10dp"
+		        android:textStyle="bold" />
+		    
+		    <RelativeLayout
+	            android:layout_centerHorizontal="true"	    
+	            android:id="@+id/relBotoes"     	
+	            android:layout_below="@id/lnSeparador3"    
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+         
+	    	      <TextView
+			        android:id="@+id/txtTotal"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:textSize="20sp"	        
+			        android:textColor="#C40000"
+			        android:textStyle="bold"
+			        android:text="@string/total" />
+	    	      
+	    	      
+	    	      
+	    	      <TextView
+	    	          android:id="@+id/txtTotalConta"
+	    	          android:layout_width="wrap_content"
+	    	          android:layout_height="wrap_content"
+	    	          android:layout_toRightOf="@id/txtTotal"
+	    	          android:layout_marginLeft="10dp"
+			          android:textSize="20sp"	        
+	    	          android:textColor="#C40000"
+	    	          android:textStyle="bold" />
+    	      </RelativeLayout>
+		      
+	           
+			    <Button
+			        android:id="@+id/btnContaTotalDividir"
+			        android:layout_below="@id/relBotoes"
+			        android:layout_width="200dp"
+			        android:layout_height="wrap_content"
+			        android:layout_centerHorizontal="true"        
+			        android:textColor="#FFFF00"
+			        android:background="#C40000"
+			        android:textStyle="bold"
+					android:layout_marginTop="5dp"
+			        android:text="@string/dividir" />
+		  
+	       
+		</RelativeLayout>
+    
+      
+</LinearLayout>
+
+        
+        <ListView
+        android:id="@+id/lstContaGarcom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ECECEC"
+        android:dividerHeight="1sp" 
+	    android:layout_above="@id/rodape"
+    	android:layout_below="@id/cabecalho"/>
+
+</RelativeLayout>
+
+          

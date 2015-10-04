@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zetta.pedaja"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:debuggable="false">
+        <activity
+            android:name="com.zetta.pedaja.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.CadastroActivity"
+            android:label="@string/title_activity_cadastro"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.EstabelecimentoActivity"
+            android:label="@string/title_activity_estabelecimento"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.CidadeActivity"
+            android:label="@string/title_activity_cidade"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.CardapioActivity"
+            android:label="@string/title_activity_cardapio"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.ProdutoActivity"
+            android:label="@string/title_activity_produto"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.DetalhesEmpresaActivity"
+            android:label="@string/title_activity_detalhes_empresa"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.MesaActivity"
+            android:label="@string/title_activity_mesa"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.DestaqueActivity"
+            android:label="@string/title_activity_destaque"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.ConfirmarMesaActivity"
+            android:label="@string/title_activity_confirmar_mesa"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.AcompanhamentoActivity"
+            android:label="@string/title_activity_acompanhamento"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.VisualizarContaActivity"
+            android:label="@string/title_activity_visualizar_conta"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.SuaContaFragment"
+            android:label="@string/title_activity_sua_conta"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.ContaGarcomFragment"
+            android:label="@string/title_activity_sua_conta"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.ContaTotalFragment"
+            android:label="@string/title_activity_sua_conta"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.EncerrarContaActivity"
+            android:label="@string/title_activity_encerrar_conta"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.AlteracaoCadastroActivity"
+            android:label="@string/title_activity_alteracao_cadastro"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.AlterarSenhaActivity"
+            android:label="@string/title_activity_alterar_senha"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.MeioMeioActivity"
+            android:label="@string/title_activity_meio_meio" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.ConfiguracaoMeioActivity"
+            android:label="@string/title_activity_meio_meio"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.DuasMetadesActivity"
+            android:label="@string/title_activity_duas_metades" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.TresMetadesActivity"
+            android:label="@string/title_activity_tres_metades" >
+        </activity>
+        <activity
+            android:name="com.zetta.pedaja.SelecionarMetadeActivity"
+            android:label="@string/title_activity_selecionar_metade"
+            android:noHistory="true" 
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

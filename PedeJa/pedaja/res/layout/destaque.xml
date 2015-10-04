@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical" 
+     android:gravity="center_horizontal"
+     android:background="#F5F5F5"
+     android:layout_height="fill_parent" 
+     android:layout_width="fill_parent">
+
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true" 
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+	android:background="#F5F5F5"
+    android:id="@+id/rodape" android:padding="3dip">
+        
+         <TextView
+	        android:id="@+id/txtDestaque"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"
+	        android:text="@string/vazio"
+	        android:textSize="16sp"
+	        android:gravity="center"/>
+          
+     	<RelativeLayout
+            android:id="@+id/relQtdProduto"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#F5F5F5"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:orientation="vertical" >
+	    
+         
+	        
+            <RelativeLayout
+	            android:layout_centerHorizontal="true"	    
+	            android:id="@+id/relBotoes"     	    
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+         
+	    	      <Button
+			        android:id="@+id/btnAnterior"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:layout_alignParentLeft="true"	        
+			        android:textColor="#FFFF00"
+			        android:background="@drawable/round_button"
+			        android:textStyle="bold"
+			        android:text="@string/menos" />
+	    	      
+	    	      
+	    	      
+	    	      <Button
+	    	          android:id="@+id/btnProximo"
+	    	          android:layout_width="50dp"
+	    	          android:layout_height="wrap_content"
+	    	          android:layout_toRightOf="@id/btnAnterior"
+	    	          android:background="@drawable/round_button"
+	    	          android:shadowRadius="500"
+	    	          android:layout_marginLeft="70dp"
+	    	          android:text="@string/mais"
+	    	          android:textColor="#FFFF00"
+	    	          android:textStyle="bold" />
+    	      </RelativeLayout>
+    	      
+      <RelativeLayout
+        android:id="@+id/relLoginBotoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+    	android:layout_below="@id/relBotoes"
+	    android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        
+           
+	
+	       
+		      <TextView
+		        android:id="@+id/lnSeparador3"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_height="2dp"
+		        android:background="#C40000"
+		        android:gravity="top"
+		        android:layout_marginTop="10dp"
+		        android:textStyle="bold" />
+	           
+		    <Button
+		        android:id="@+id/btnDestaqueCarpadio"
+		        android:layout_below="@id/lnSeparador3"
+		        android:layout_width="100dp"
+		        android:layout_height="wrap_content"   	        
+		        android:textColor="#FFFF00"
+		        android:background="#C40000"
+		    	android:layout_marginTop="10dp"
+		    	android:layout_marginLeft="15dp"
+		    	android:layout_alignParentLeft="true"
+    	        android:textAlignment="center"
+		        android:textStyle="bold"
+		        android:text="@string/cardapio" />   
+	           
+		    <Button
+		        android:id="@+id/btnDestaquePedir"
+		        android:layout_below="@id/lnSeparador3"
+		        android:layout_width="100dp"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"	        	        
+		        android:textColor="#FFFF00"
+		        android:background="#C40000"
+		    	android:layout_marginTop="10dp"
+		    	android:layout_marginRight="15dp"
+		    	android:layout_alignParentRight="true"
+    	        android:textAlignment="center"
+		        android:textStyle="bold"
+		        android:text="@string/pedir" />
+	       
+		</RelativeLayout>    	      
+     </RelativeLayout>      
+</LinearLayout>
+
+        <ImageView
+        	android:id="@+id/imgDestaque"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:contentDescription="@string/app_name"
+	        android:divider="#ECECEC"	        
+	        android:dividerHeight="1sp"
+	        android:layout_above="@id/rodape"/>
+
+</RelativeLayout>

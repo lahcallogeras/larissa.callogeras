@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pede Já</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Pede Já</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="novoUsuario">Novo Usuário</string>
+    <string name="email">E-mail</string>
+    <string name="nome">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="dataNascimento">Data de Nascimento</string>
+    <string name="confirmacaoSenha">Confirmação de Senha</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+    <string name="title_activity_cadastro">Cadastro - Pede Já!</string>
+    <string name="title_activity_estabelecimento">Selecionar Estabelecimento</string>
+    <string name="procurarEstabelecimento">Procurar Estabelecimento</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Pede Já</string>
+    <string name="abrirConta">Abrir Conta</string>
+    <string name="title_activity_cidade">Selecione a Cidade</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="selecioneEstado">Selecionar estado</string>
+    <string name="selecioneCidade">Selecionar cidade</string>
+    <string name="pedir">Pedir</string>
+    <string name="visuConta">Visualizar Conta</string>
+    <string name="encerrarConta">Encerrar Conta</string>
+    <string name="title_activity_cardapio">Cardápio</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="title_activity_produto">Item do cardápio</string>
+    <string name="mais">+</string>
+    <string name="menos">-</string>
+    <string name="um">1</string>
+    <string name="selecionarMesa">Escolha a Mesa</string>
+    <string name="telefones">Telefones</string>
+
+    <string-array name="opcoesEmpresa">
+        <item>Detalhes da Empresa</item>
+    </string-array>
+
+    <string name="title_activity_detalhes_empresa">MainActivity</string>
+    <string name="title_activity_mesa">Selecione a mesa</string>
+    <string name="title_activity_destaque">Destaque da Semana</string>
+    <string name="destaque">Destaque</string>
+    <string name="title_activity_confirmar_mesa">Confirmar Mesa</string>
+    <string name="exemplo_confirmar_mesa"> Digite o número da mesa ao contrário. Por exemplo, se o número da mesa é 01, você deve digitar 10. Se o número da mesa é 24, você deve digitar 42. </string>
+    <string name="digite_mesa">Digite o número da mesa.</string>
+    <string name="digite_empresa">Digite o código do estabelecimento. Esse código está localizado na mesa.</string>
+    <string name="codigo_estabelecimento">Código do estabelecimento.</string>
+    <string name="escolha_mesa">Selecione a mesa.</string>
+    <string name="title_activity_acompanhamento">Acompanhamentos</string>
+    <string name="title_activity_visualizar_conta">Visualização de Conta</string>
+    <string name="tab_sua_conta">Sua Conta</string>
+    <string name="tab_conta_total">Conta Total</string>
+    <string name="title_activity_sua_conta">Sua Conta</string>
+    <string name="total">Total:</string>
+
+    <string-array name="opcoesChamada">
+        <item>Ligar</item>
+    </string-array>
+
+    <string name="title_activity_encerrar_conta">Encerrar Conta</string>
+    <string name="selecioneModoPagamento">Selecione o Modo de Pagamento</string>
+    <string name="modoPagamento">Modo de Pagamento</string>
+    <string name="title_activity_alteracao_cadastro">Alteração de Cadastro</string>
+    <string name="confirmarAlteracao">Confirmar Alteração</string>
+    <string name="title_activity_alterar_senha">Alterar Senha</string>
+    <string name="senhaAtual">Senha Atual</string>
+    <string name="novaSenha">Nova Senha</string>
+    <string name="ultimoPedido">Repetir Última Pedido</string>
+    <string name="dividir">Dividir</string>
+    <string name="teste">Dividir</string>
+    <string name="pedidoMix">Meio a Meio</string>
+    <string name="title_activity_meio_meio">Pedido Meio a Meio</string>
+    <string name="tamanho">Tamanho</string>
+    <string name="grande">Grande</string>
+    <string name="medio">Médio</string>
+    <string name="pequeno">Pequeno</string>
+    <string name="qtasMetades">Quantas partes?</string>
+    <string name="metade02">02</string>
+    <string name="metade03">03</string>
+    <string name="title_activity_duas_metades">Pedido combinado</string>
+    <string name="title_activity_tres_metades">Pedido combinado</string>
+    <string name="title_activity_selecionar_metade">Selecionar Parte</string>
+    <string name="vazio"></string>
+
+</resources>

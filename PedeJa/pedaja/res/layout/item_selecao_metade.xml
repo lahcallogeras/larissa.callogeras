@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="15dp"
+  android:paddingBottom="15dp"
+  android:background="#F5F5F5"  > 
+ 
+  <TextView
+      android:id="@+id/txtDescricao"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      android:text="@string/cidade"
+  	  android:paddingLeft="5dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="center_vertical"
+      android:textSize="20sp" 
+      android:textColor="#000000" />
+  
+    
+  <TextView
+      android:id="@+id/txtValor"
+      android:layout_width="fill_parent"
+      android:layout_below="@id/txtDescricao"
+      android:layout_height="wrap_content"
+      android:text="@string/cidade"
+  	  android:paddingLeft="5dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="center_vertical"
+      android:textSize="16sp" 
+      android:textColor="#000000" />
+    
+  
+   <TextView
+      android:id="@+id/txtDetalhe"
+      android:layout_width="fill_parent"
+      android:layout_below="@id/txtValor"
+      android:layout_height="wrap_content"
+      android:text="@string/teste"
+  	  android:paddingLeft="5dp"
+      android:layout_marginLeft="10dp"
+      android:gravity="center_vertical"
+      android:textSize="16sp" 
+      android:textColor="#666666" />
+   
+    
+   <TextView
+      android:id="@+id/txtTipoProdutoId"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="13sp"          
+      android:textColor="#000000"
+      android:gravity="center"
+      android:paddingLeft="5dp"  
+      android:visibility="gone" /> 
+  
+  
+</RelativeLayout>

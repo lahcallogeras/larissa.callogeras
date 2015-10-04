@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true" 
+    tools:context=".LoginActivity" >
+
+   	    
+    <LinearLayout
+    android:id="@+id/ln"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5F5F5"
+    android:padding="10dp"
+    android:orientation="vertical">
+    
+       <TextView
+	      android:id="@+id/txtCodigoEmpresa"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#000000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/digite_empresa"/>
+     
+      <EditText
+         android:id="@+id/edtMesaEst"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:inputType="number"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/codigo_estabelecimento"
+	      android:paddingTop="15dp" />
+        
+       <TextView
+	      android:id="@+id/txtSelecioneMesa"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#000000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/escolha_mesa"/>
+       
+    
+        <Spinner android:id="@+id/spMesa"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:hint="@string/selecionarMesa"		
+		android:popupBackground="#F5F5F5"
+		android:drawSelectorOnTop="true" />
+    
+            
+       <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:orientation="vertical" >        
+           
+        
+	    <Button
+	        android:id="@+id/btnMesaConfirmar"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+			android:layout_marginTop="25dp"
+	        android:text="@string/confirmar" />
+	</RelativeLayout>
+	
+     
+	
+  </LinearLayout>
+  
+   
+</ScrollView>

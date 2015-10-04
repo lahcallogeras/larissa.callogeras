@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true" 
+    tools:context=".LoginActivity" >
+
+   	    
+    <LinearLayout
+    android:id="@+id/ln"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:padding="5dp"
+		  android:background="#F5F5F5"  > 
+		    
+		  <ImageView
+		      android:id="@+id/imgHomeEst"
+		      android:contentDescription="@+string/teste"
+		      android:layout_width="120dp"
+		      android:layout_height="70dp"
+		      android:background="#ffffff"
+		      android:scaleType="centerCrop"
+		  /> 
+		    
+		  <TextView
+		      android:id="@+id/txtHomeEstNome"
+		      android:layout_width="fill_parent"
+		      android:layout_height="70dp"
+		      android:layout_toRightOf="@+id/imgHomeEst"
+		      android:layout_alignTop="@+id/imgHomeEst"
+		      android:textSize="25sp"     
+		      android:gravity="center"
+		      android:textColor="#C40000"
+	          android:layout_marginBottom="25dp"
+		      android:paddingLeft="5dp"  
+	  /> 
+	        
+	    <Button
+	        android:id="@+id/btnHomeAbrir"
+	        android:layout_below="@id/txtHomeEstNome"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/abrirConta" />
+	    
+	    
+        
+	    <Button
+	        android:id="@+id/btnCardapio"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true" 
+	        android:layout_below="@id/btnHomeAbrir"       
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/cardapio" />	    
+	    
+        
+	    <Button
+	        android:id="@+id/btnDestaque"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true" 
+	        android:layout_below="@id/btnCardapio"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/destaque" />
+	    
+	    
+        
+	    <Button
+	        android:id="@+id/btnPedidoMix"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true" 
+	        android:layout_below="@id/btnDestaque"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/pedidoMix" />
+	    
+	     <Button
+	        android:id="@+id/btnUltimoPedido"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true" 
+	        android:layout_below="@id/btnPedidoMix"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/ultimoPedido" />
+	    
+        
+	    <Button
+	        android:id="@+id/btnVisualizarConta"
+	        android:layout_below="@id/btnUltimoPedido"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/visuConta" />
+	    
+	    
+        
+	    <Button
+	        android:id="@+id/btnEncerrarConta"
+	        android:layout_below="@id/btnVisualizarConta"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	        android:textStyle="bold"
+	        android:layout_marginTop="7dp"
+	        android:text="@string/encerrarConta" />
+	</RelativeLayout>
+	
+      <TextView
+	      android:id="@+id/txtTeste"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:visibility="gone"
+	      android:text="@string/usuario"/>
+	
+  </LinearLayout>
+  
+   
+</ScrollView>

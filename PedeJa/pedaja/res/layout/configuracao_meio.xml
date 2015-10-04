@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true"  >
+   	    
+    <LinearLayout
+    android:id="@+id/ln"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="25dp"
+    android:background="@null"
+    android:orientation="vertical">
+    
+        <TextView
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#000000"
+	      android:paddingLeft="5dp"    
+	      android:textStyle="italic" 
+	      android:text="@string/tamanho"/>
+        
+        <RadioGroup      
+        	android:id="@+id/groupTamanho"      
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RadioButton
+            android:id="@+id/rbGrande"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	      	android:textColor="#000000"
+	      	
+            android:text="@string/grande" />
+        
+        <RadioButton
+            android:id="@+id/rbMedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	      	android:textColor="#000000"
+            android:text="@string/medio" />
+        
+        <RadioButton
+            android:id="@+id/rbPequeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	      	android:textColor="#000000"
+            android:text="@string/pequeno" />
+        
+        </RadioGroup>
+        
+        <TextView
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#000000"
+	      android:paddingLeft="5dp"  
+	      android:layout_marginTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/qtasMetades"/>
+        
+       <RadioGroup
+        	android:id="@+id/groupMetade"      
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RadioButton
+            android:id="@+id/rbMetade01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+	      	android:textColor="#000000"
+            android:text="@string/metade02" />
+        
+        <RadioButton
+            android:id="@+id/rbMetade02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	      	android:textColor="#000000"
+            android:text="@string/metade03" />
+        
+        </RadioGroup>
+        
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:orientation="vertical" >        
+           
+	        
+		    <Button
+		        android:id="@+id/btnConfirmar"
+		        android:layout_width="200dp"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_centerHorizontal="true"        
+		        android:textColor="#FFFF00"
+		        android:background="#C40000"
+		        android:textStyle="bold"
+				android:layout_marginTop="25dp"
+		        android:text="@string/confirmar" />
+	</RelativeLayout>
+	
+        
+    </LinearLayout>
+    
+</ScrollView>

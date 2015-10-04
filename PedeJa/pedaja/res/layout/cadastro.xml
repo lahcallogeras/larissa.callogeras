@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true" 
+    tools:context=".CadastroActivity" >
+
+   	    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+    
+     
+          
+      <TextView
+	      android:id="@+id/txtNome"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/nome"/>
+     
+      <EditText
+         android:id="@+id/edtNome"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/nome"
+	      android:paddingTop="5dp" />
+        
+        <TextView
+	      android:id="@+id/txtEmail"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/email"/>
+         
+	            
+      <EditText android:id="@+id/edtEmail"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:gravity="left"
+	      android:inputType="textEmailAddress"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/email"
+	      android:paddingTop="5dp" />      
+      
+        
+        <TextView
+	      android:id="@+id/txtDataNascimento"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/dataNascimento"/>
+     
+      <DatePicker
+          android:id="@+id/dtDataNascimento"
+          android:layout_width="wrap_content"
+          android:calendarViewShown="false"
+          android:endYear="2013"
+          android:startYear="1920"
+	      android:hint="@string/dataNascimento"
+          android:layout_height="wrap_content" />
+     
+      <TextView
+	      android:id="@+id/txtCpf"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/cpf"/>
+     
+       
+      <EditText
+         android:id="@+id/edtCpf"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/cpf"
+	      android:paddingTop="5dp" />
+      
+      
+     <TextView
+	      android:id="@+id/txtCadUsu"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/usuario"/>
+     
+       
+      <EditText
+         android:id="@+id/edtCadUsu"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/usuario"
+	      android:paddingTop="5dp" />      
+      
+            
+     <TextView
+	      android:id="@+id/txtCadSenha"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/senha"/>     
+       
+      <EditText
+         android:id="@+id/edtCadSenha"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/senha"
+	      android:inputType="textPassword"
+	      android:paddingTop="5dp" />   
+	      
+      
+         <TextView
+	      android:id="@+id/txtCadConfSenha"
+	      android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+	      android:textSize="20sp"     
+	      android:gravity="left"
+	      android:textColor="#C40000"
+	      android:paddingLeft="5dp"  
+	      android:paddingTop="25dp"  
+	      android:textStyle="italic" 
+	      android:text="@string/confirmacaoSenha"/>     
+       
+      <EditText
+         android:id="@+id/edtCadConfSenha"
+	      android:layout_width="fill_parent"      
+		  android:layout_height="wrap_content"
+	      android:textSize="18sp"          
+	      android:textColor="#000000"
+	      android:gravity="left"
+	      android:paddingLeft="5dp"   
+	      android:hint="@string/confirmacaoSenha"
+	      android:inputType="textPassword"
+	      android:paddingTop="5dp" />   
+      
+       <RelativeLayout
+           android:id="@+id/relLoginBotoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+	    android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        
+           
+
+       
+	      <TextView
+	        android:id="@+id/lnSeparador3"
+	        android:layout_width="fill_parent"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"
+	        android:layout_height="2dp"
+	        android:background="#C40000"
+	        android:gravity="top"
+	        android:layout_marginTop="10dp"
+	        android:textStyle="bold" />
+	      
+	      
+           
+	    <Button
+	        android:id="@+id/btnNovoUsuario"
+	        android:layout_below="@id/lnSeparador3"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"	        	        
+	        android:textColor="#FFFF00"
+	        android:background="#C40000"
+	    	android:layout_marginTop="10dp"
+	        android:layout_marginRight="15dp"
+	        android:textStyle="bold"
+	        android:text="@string/novoUsuario" />
+       
+	</RelativeLayout>
+	
+  </LinearLayout>
+  
+   
+</ScrollView>
